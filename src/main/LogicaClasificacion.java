@@ -38,7 +38,7 @@ public class LogicaClasificacion {
      * Entrada: ["r", "a", "d", "a", "r"] → true
      * Entrada: ["c", "a", "s", "a"] → false
      *
-     * @param cola Cola de letras en minúsculas
+     * @param cola Cola de letras en minúsculas.
      * @return true si forman un palíndromo, false si no
      */
     public boolean verificarPalindromoCola(Queue<String> cola) {

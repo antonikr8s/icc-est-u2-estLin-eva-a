@@ -31,9 +31,10 @@ public class App {
         Queue<String> palabra2 = new LinkedList<>(Arrays.asList("c", "a", "s", "a"));
 
         System.out.println("\n02. verificarPalindromoCola(Queue cola)");
-        
+
         System.out.println("Entrada: " + (palabra1) + " -> " + logica.verificarPalindromoCola(palabra1));
         System.out.println("Entrada: " + (palabra2) + " -> " + logica.verificarPalindromoCola(palabra2));
 
+        
     }
 }
